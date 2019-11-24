@@ -1,5 +1,5 @@
 {
-  "name": "ctp",
+  "name": "@magicfun1241/ctp",
   "version": "1.0.0",
   "description": "Transport protocol for Codam Open Network",
   "main": "lib/index.js",
