@@ -1,0 +1,36 @@
+{
+  "name": "ctp",
+  "version": "1.0.0",
+  "description": "Transport protocol for Codam Open Network",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MFSoftware/ctp.git"
+  },
+  "keywords": [
+    "codam",
+    "websocket",
+    "protocol",
+    "transport"
+  ],
+  "author": "MagicFun1241",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MFSoftware/ctp/issues"
+  },
+  "homepage": "https://github.com/MFSoftware/ctp#readme",
+  "dependencies": {
+    "magicws-api": "^1.0.0",
+    "ws": "^7.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "mocha": "^6.2.2"
+  }
+}
